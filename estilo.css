@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.app{
+    background-color: #333333;
+}
+
+h2{
+    font-family: 'Helvetica';
+    margin-bottom: 20px;
+}
+
+.navbar-brand{
+    cursor: default;
+}
+
+.container {
+    width: 500px;
+    margin: auto;
+    padding: 25px;
+    text-align: center;
+    background: #24303c;
+    border-radius: 6px;
+    margin-top: 60px;
+    border: 2px solid;
+}
+
+
+#inputciudad {
+    width: 80%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 2px solid #1f53c5;
+    background-color: #24303c;
+    font-family: 'Helvetica';
+    font-size: 17px;
+}
+
+.consulta, .limpia {
+    margin-top: 10px;
+    width: 45%;
+    padding: 5px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background: #005CD1;
+    font-family: 'calibri';
+    font-size: 18px;
+    border: 1px solid black;
+}
+
+button:hover{
+    background: #004092;
+}
+
+.resultado h4{
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+.resultado h1{
+    margin: 10px;
+    font-size: 50px;
+}
+
+.resultado p{
+    font-size: 15px;
+}
+
+.mensajeAlerta{
+    color: red;
+    font-family: 'calibri';
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+#weatherData {
+    margin-top: 20px;
+}
+
+#map {
+    height: 100%;
+}
+  
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
